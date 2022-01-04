@@ -1,0 +1,522 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+	Buddha International Public School, Kharkhoda (Sonipat)
+</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta id="MetaViewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<link id="Link1" runat="server" rel="shortcut icon" href="images/banner/favicon_logo.png" type="image/x-icon" />
+<link id="Link2" runat="server" rel="icon" href="images/banner/favicon_logo.png" type="image/ico" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="css/Custom.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.minfc99.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-layout.minf24c.css" rel="stylesheet" type="text/css" />
+    <link href="css/tabstyle.min7ef2.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.mind5f7.css" rel="stylesheet" type="text/css" />
+    <link href="css/scrollTop.min7f0f.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />  
+    <link href="css/top_custom.mina361.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min3aa8.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-theme.minad05.css" rel="stylesheet" type="text/css" />
+     <link href="css/style.minfc99.css" rel="stylesheet" type="text/css" />
+
+
+    <script src="js/jquery-1.7.1.minad05.js" type="text/javascript"></script>
+    <script src="js/global_functions.min039c.js" type="text/javascript"></script>
+    <script src="js/jquery-1.11.3.min7ef2.js" type="text/javascript"></script>
+    <script src="js/bootstrap.minad05.js" type="text/javascript"></script>
+    <script src="js/scrollTop.min3aa8.js" type="text/javascript"></script>
+    <script src="js/footer-enquirye23c.js" type="text/javascript"></script>
+
+
+
+ 
+
+<style>
+     .learn-sec, .about-dps-society-message {
+    background: url(media/contentpage_126_29_3e5a8.png?637473632270479556) no-repeat;
+    background-size: cover;
+}
+#ContentPlaceHolder1_div_Dynamic_180 .btn.btn-primary ,#ContentPlaceHolder1_div_Dynamic_93 .btn.btn-primary{
+    background: #004c98 !important;
+}
+  
+  .regclose{
+    width:100% !important;
+  }
+  
+  .regclose::after{
+    content:'  for the Current Session 2021-2022'
+  }
+ /* .baner-nav.w-100.text-uppercase.text-center.text-white .container{
+    display:none;
+  }*/
+.marqueeandlinks ul{width:100%;}.header-right .button-header .btn-light {font-size: 1.2rem;font-family: 'gotham-medium'!important; font-weight:bold;
+}
+</style>
+</head>
+<body id="masterbody" class="masterbody home tier-2 layout-n0-p1-s1 findlocation scroll-assist">
+    <form id="form1" runat="server">
+          <div class="div-main-container mm-slideout">
+            <div class="container-fluid SlideShow_Height">
+                <div class="row">
+                  
+                    <div class="header header_backimg clearfix">
+                        <header class='fixed-top px-lg-3 py-2 back2'>
+                        <div class='container-fluid custom-container'>
+                        <nav class='navbar navbar-expand-lg navbar-light p-0'>
+                        <a class='navbar-brand' href='Default.aspx'><img class='img-fluid' src="images/banner/Bips_Logo1.png" style='margin-top:-25px; margin-left:0px; margin-bottom:0px;'  alt='Buddha International Public School'/></a>
+                        <div class='header-right justify-content-end d-flex flex-wrap justify-content-end'>
+                        <div class='button-header d-flex flex-wrap'>
+                        <a href='Admission_Process.aspx' class='btn btn-light rounded-0 text-uppercase px-md-3'><i class='fa fa-university fonticon' aria-hidden='true'></i>ADMISSIONS 2022- 2023</a>
+                        <a href='Admission_Form.aspx' class='btn btn-light rounded-0 text-uppercase px-md-3'><i class='fa fa-university fonticon' aria-hidden='true'></i>Admission  Application  Form</a>
+                        <a href='Job_Form.aspx' class='btn btn-light rounded-0 text-uppercase px-md-3'><i class='fa fa-graduation-cap fonticon' aria-hidden='true'></i>Job Application Form</a>
+                            <a href='http://controlpanel.ptccircle.com/adminlogin.aspx' target='_blank' class='btn btn-light rounded-0 text-uppercase px-md-3'><i class='fa fa-sign-in fonticon' aria-hidden='true'></i>Login</a></div>
+                            <div class='toggle-bar d-flex align-items-center'>
+                            <div class='menu_icon d-flex align-items-center'>
+                            <span> <i class='icon-bar'></i><i class='icon-bar'></i><i class='icon-bar'></i></span>
+                            </div>
+                            </div>
+                            </div>
+                            </nav>
+                            </div>
+                            </header>
+                            
+                            <div class='menu_main'>
+                            <div class='menu-main-top h-100'>
+                            <div class='menu-main-container py-4'>
+                            <div class='container mt-lg-3'>
+                            <div class='menu-contain menu-list'>
+                            <div class='row'>
+                            <div class='col-lg-3 col-md-12'>
+                            <ul class='list-unstyled mb-0'>
+                            <li class='list-item'><a href='Default.aspx'>Home</a></li>
+                            <li class='list-item menu-has-dropdown'>
+                            <a href='javascript:void(0)'>About Us</a>
+                            <div class='drop-down-inner'>
+                            <ul class='mb-0 list-unstyled'>
+                            <li class='inner-list'><a href='About.aspx'>About BIPS</a></li>
+                            <li class='inner-list'><a href='DirectorMessage.aspx'>Director's  Message</a></li>
+                            <li class='inner-list'><a href='PrincipalMessage.aspx'>Principal's Message</a></li>
+                            <li class='inner-list'><a href='VisionMission.aspx'>Vision & Mission</a></li>
+                            <li class='inner-list'><a href='Why_BIPS.aspx'>Why BIPS</a></li>
+                            <li class='inner-list'><a href='CoreValues.aspx'>Core Values</a></li>
+                            </ul></div></li>
+
+                             <li class='list-item menu-has-dropdown'><a href='javascript:void(0)'>ACADEMICS </a>
+                            <div class='drop-down-inner'>
+                            <ul class='mb-0 list-unstyled'>
+                            <li class='inner-list'><a href='Pedagogy.aspx'>PEDAGOGY</a></li>
+                            <li class='inner-list'><a href='Extra_Curricular.aspx'>EXTRA-CURRICULAR</a></li>
+                            <li class='inner-list'><a href='Beyond_Classrooms.aspx'>BEYOND CLASSROOMS</a></li>
+                           </ul></div></li>
+
+                            <li class='list-item menu-has-dropdown'><a href='javascript:void(0)'>Admission</a>
+                            <div class='drop-down-inner'>
+                            <ul class='mb-0 list-unstyled'>
+                             
+                              <li class='inner-list'><a href='Overview.aspx'>Overview</a></li>
+                            <li class='inner-list'><a href='Admission_Process.aspx'>Admission Process</a></li>
+                            <li class='inner-list'><a href='Admission_Policy.aspx'>Admission Policy</a></li>
+                            <li class='inner-list'><a href='Admission_Guidelines.aspx'>Admission Guidelines</a></li>
+                            <li class='inner-list'><a href='Admission_Withdrawal_Policy.aspx'>Admission Withdrawal Policy</a></li>
+                            <li class='inner-list'><a href='Suspension_Student.aspx'>Student Suspension</a></li>
+                            <li class='inner-list'><a href='FeeStructure.aspx'>Fee Structure</a></li>
+                            <li class='inner-list'><a href='#'>FAQ</a></li></ul></div></li>
+
+                             <li class='list-item menu-has-dropdown'><a href='javascript:void(0)'>General Information</a>
+                            <div class='drop-down-inner'>
+                            <ul class='mb-0 list-unstyled'>
+                            <li class='inner-list'><a href='Facilities.aspx'>Facilities & Infrastructure</a></li>
+                            <li class='inner-list'><a href='School_Rule.aspx'>School Rule</a></li>
+                            <li class='inner-list'><a href='FeeRule.aspx'>Fee Rule</a></li>
+                            <li class='inner-list'><a href='LibraryRule.aspx'>Library Rule</a></li>
+                            <li class='inner-list'><a href='Safety.aspx'>Safety & Security</a></li>
+                            </ul></div></li>
+
+                             <li class='list-item menu-has-dropdown'><a href='javascript:void(0)'>Students Zone</a>
+                            <div class='drop-down-inner'>
+                            <ul class='mb-0 list-unstyled'>
+                            <li class='inner-list'><a href='#'>Examination</a></li>
+                            <li class='inner-list'><a href='Syllabus.aspx'>Syllabus</a></li>
+                            <li class='inner-list'><a href='TimeTable.aspx'>Time Table</a></li>
+                            <li class='inner-list'><a href='Code_Conduct.aspx'>Code of Conduct</a></li>
+                            <li class='inner-list'><a href='Uniform.aspx'>Uniform</a></li>
+                             <li class='inner-list'><a href='Discipline.aspx'>Discipline</a></li>
+                             <li class='inner-list'><a href='Assembly.aspx'>Assembly</a></li>
+                             <li class='inner-list'><a href='Sports.aspx'>Sports</a></li>
+                             <li class='inner-list'><a href='Promotion_Detention.aspx'>Promotion & Detention</a></li>
+                             <li class='inner-list'><a href='House_System.aspx'>House System</a></li>
+                             <li class='inner-list'><a href='Remedial_Classes.aspx'>Remedial Classes</a></li>
+                             <li class='inner-list'><a href='Calender.aspx'>Calender</a></li>                            
+                            </ul></div></li>
+                            
+                            <li class='list-item'><a href='Gallery_Album.aspx'>Gallery</a></li>
+
+                              <li class='list-item menu-has-dropdown'><a href='javascript:void(0)'>Career Opportunities</a>
+                            <div class='drop-down-inner'>
+                            <ul class='mb-0 list-unstyled'>
+                            <li class='inner-list'><a href='Current_Vacancy.aspx'>Current Vacancies</a></li>
+                            <li class='inner-list'><a href='Job_Form.aspx'>Apply for Job</a></li>
+                            </ul></div></li>
+
+                             <li class='list-item'><a href='Contact.aspx'>Contact</a></li>
+                               <li class='list-item'><a href='http://www.csmschool.in/' target="_blank">C.S.M. School</a></li>
+                          </ul></div></div></div></div></div></div></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="custom-school wrap">
+                <input name="ctl00$HSecretKey" type="hidden" id="HSecretKey" value="64J%F+L6t9&amp;eC@x6pUMyVqz=RVHLk-7mLy=kv=gX" />
+                <div id="MasterUpdatePanel">
+	
+                        
+    <div id="ContentPlaceHolder1_divMain">
+        <div id="ContentPlaceHolder1_div1">
+            <div id="ContentPlaceHolder1_div2">
+                <div id="ContentPlaceHolder1_div3">
+                <div id="ContentPlaceHolder1_div4"></div></div>
+                <div id="ContentPlaceHolder1_div5">
+                    <div id="ContentPlaceHolder1_div6">
+                        
+                        <div id="ContentPlaceHolder1_div7">
+                            <section class='banner-top banner-inner-top position-relative banner-top-back-color padTop1'>
+                            <div id='nav-mask' class='nav-mask-height'></div>
+                            <img src="images/banner/master%20banner.jpg" class='img-fluid w-100 img-responsive'>
+                           <%-- <div class='top-banner-content text-white'>
+                            <div class='banner-top-title px-2 mb-md-4 pb-md-1'><h1 class='mb-0 text-uppercase'>About Us</h1></div>
+                            </div>--%>
+                          </section>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+          
+        </asp:ContentPlaceHolder>
+    </div>
+                        <div class="clear"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                    
+</div>
+            </div>
+            <div class="clearfix"></div>
+<div class="container-fluid site-bottom clearfix">
+                <div class="row">
+                    
+                    <style type='text/css'>
+                        .page_footer 
+                        {
+                            width:100%;
+                            overflow: hidden;
+                            position: relative;
+                            background-color:#1d1b1b;
+                            }
+                            </style>
+                
+                    <footer class='page_footer'>
+                    <div class='footer-middle py-5'>
+                    <div class='container'>
+                    <div class='row'>
+                    <div class='col-md-5 custom-md-5'>
+                    <div class='dps-detail-fooetr h-100 position-relative'>
+                    <div class='dps-logo mb-4 pb-2'>
+                    <img class='img-fluid' src="images/banner/Bips_Logo1.png" alt='Delhi Public School' />
+                    </div>
+                    <div class='dps-contat-footer'>
+                    <div class='dps-address mb-3'>
+                    <h5 class='mb-0 text-uppercase'>Buddha International Public School</h5>
+                    <p>Kharkhoda, Sonipat, Haryana  </p>
+                    <div class='dps-contatc mb-3'>
+                    <p class='mb-0'>Call : 7419808090&nbsp;,&nbsp 7419808091</p>
+                    <p class='mb-0'>Email : <a href='mailto:bipskharkhoda@gmail.com'>bipskharkhoda@gmail.com</a></p>
+                    </div>
+                   <%-- <div class='socail-icoons d-flex flex-wrap'><a href='javascript:void(0)' target='_blank'><img src="icons/fb.png"  class='img-fluid'></a><a  href='javascript:void(0)' target='_blank'><img src="icons/insta.png" class='img-fluid'></a><a  href='javascript:void(0)' target='_blank'><img src="icons/youtube.png" class='img-fluid'></a></div> --%>                   
+                    </div></div></div></div>
+                    
+                    <div class='col-md-3 col-sm-6'><div class='dps-detail-fooetr h-100 position-relative'><h5 class='text-uppercase'>About BIPS</h5>
+                    <div class='footer-list'>
+                    <ul class='list-unstyled mb-0'>
+                   
+                    <li><a href='DirectorMessage.aspx'>Director's  Message</a></li>
+                    <li><a href='PrincipalMessage.aspx'>Principal's Message</a></li>
+                    <li><a  href='VisionMission.aspx'>Vision & Mission</a></li></ul></div></div></div>
+                    
+                    <div class='col-md-3 col-sm-6'>
+                    <div class='dps-detail-fooetr h-100 position-relative'>
+                    <h5 class='text-uppercase'>quick links</h5>
+                    <div class='footer-list'>
+                    <ul class='list-unstyled mb-0'>
+                    <li><a  href='Admission_Form.aspx'>Admission Enquiry</a></li>
+                    <li><a  href='School_Rule.aspx'>School Rule</a></li>                   
+                    <li><a  href='Contact.aspx'>Contact</a></li>
+                    </ul></div>
+                  
+                     <div class='socail-icoons d-flex flex-wrap marTop1'>
+                     <a href="https://api.whatsapp.com/send?phone=7419808090" target='_blank'><img src="images/icon/whatsapp.png"  class='img-fluid'></a>
+                     <a href='javascript:void(0)' target='_blank'><img src="images/icon/fb.png"  class='img-fluid'></a>
+                     <a  href='javascript:void(0)' target='_blank'><img src="images/icon/insta.png" class='img-fluid'></a>
+                     <a  href='javascript:void(0)' target='_blank'><img src="images/icon/youtube.png" class='img-fluid'></a></div>  
+                    </div></div>
+                    
+                    </div></div></div>
+                    
+                    <section class='page_copyright copyright1 ls s-py-20'>
+                    <div class='container'>
+                    <div class='row align-items-center'>
+                    <div class='col-md-6 text-center copyright_section'>
+                    <p>&copy;<span class='copyright_year'>2021</span> | Buddha International Public School, Kharkhoda (Sonipat)</p>
+                    </div>
+                    <div class='col-md-6 text-center poweredby_section'>
+                    <p>Developed By:  <a  href='https://ptccircle.com/' class='anchor_color' target='_blank'> PTC CIRCLE IT SERVICES PVT. LTD.</a></p>
+                    </div></div></div></section>
+                    
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        
+       
+
+        
+
+    
+
+        
+         
+    <script type="text/javascript">        $(document).ready(function () { $('.carousel-inner,.carousel-item, .carousel-item img').css({ 'height': (($(window).height() - 30)) + 'px' }); });</script>
+    
+   
+           <script type="text/javascript">
+               $(document).ready(function () {
+                   $(window).on('resize', function () {
+                       var mastHeight = $('header').outerHeight();
+                       $('.menu_main').css('padding-top', mastHeight);
+                       $('.menu_main .menu-main-container').css({ maxHeight: 'calc(100vh - ' + mastHeight + 'px)' });
+                   });
+                   $(window).trigger('resize');
+
+                   $('.toggle-bar').click(function () {
+                       $(this).find('.menu_icon').toggleClass('open_menu');
+                       $('.menu_main').stop().slideToggle();
+                       $('header').toggleClass('fixed-menu-header');
+                       $('body').toggleClass('overflow-hidden');
+
+                   })
+
+                   $(".custom-file-input").on("change", function () {
+                       var fileName = $(this).val().split("\\").pop();
+                       $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+                   });
+
+               })
+
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            if ($(window).width() > 991) {
+
+                if ($('header').hasClass('fixed-top')) {
+
+                    $(window).scroll(function () {
+                        var scroll = $(window).scrollTop();
+
+                        if (scroll >= 200) {
+                            $('header').addClass('fixed-scoll-header');
+                            $('.navbar-brand img').attr('src', 'images/banner/Bips_Logo1.png');
+                        }
+
+                        else {
+                            $('header').removeClass('fixed-scoll-header');
+                            $('.navbar-brand img').attr('images/banner/Bips_Logo1.png');
+                        }
+
+                    });
+
+                    $('.toggle-bar').click(function () {
+                        if ($('header').hasClass('fixed-menu-header')) {
+                            $('.navbar-brand img').attr('src', 'images/banner/Bips_Logo1.png');
+                        }
+
+                        else if ($('header').hasClass('fixed-scoll-header')) {
+                            $('.navbar-brand img').attr('src', 'images/banner/Bips_Logo1.png');
+                        }
+
+                        else {
+                            $('.navbar-brand img').attr('src', 'images/banner/Bips_Logo1.png');
+                        }
+
+                    })
+
+                }
+
+                $(function () {
+                    var mastHeight = $('header').outerHeight();
+                    var banner_nav_height = $('.baner-nav').outerHeight();
+                    var combined_height = banner_nav_height + mastHeight;
+                    var link = $('.baner-nav a');
+
+                    // Move to specific section when click on menu link
+                    link.on('click', function (e) {
+                        var target = $($(this).attr('href'));
+                        $('html, body').animate({
+                            scrollTop: target.offset().top - mastHeight - 50
+                        }, 500);
+                        $(this).addClass('active');
+                        e.preventDefault();
+                    });
+
+                    // Run the scrNav when scroll
+                    $(window).on('scroll', function () {
+                        scrNav();
+                    });
+
+                    function scrNav() {
+                        var sTop = $(window).scrollTop();
+                        $('section, .div-scroll').each(function () {
+                            var id = $(this).attr('id'),
+                                offset = $(this).offset().top - combined_height,
+                                height = $(this).height();
+                            if (sTop >= offset && sTop < offset + height) {
+                                link.removeClass('active');
+                                $('.baner-nav').find('[data-scroll="' + id + '"]').addClass('active');
+                            }
+                        });
+                    }
+                    scrNav();
+                });
+
+                function sticky_relocate() {
+                    var window_top = $(window).scrollTop();
+                    var mastHeight = $('header').outerHeight();
+                    var footer_off = $('footer').offset().top;
+                    var sticky_top = $('#sticky-anchor').offset().top - mastHeight - 50
+                    var banner_nav_height = $('.baner-nav').height();
+                    var padding = 25;
+
+                    if (window_top + banner_nav_height > footer_off - padding) {
+                        $('.baner-nav').css({ top: (window_top + banner_nav_height - footer_off + padding) * -1 })
+                    }
+
+                    else if (window_top > sticky_top) {
+                        $('.baner-nav').addClass('position-fixed')
+                        $('.baner-nav').css('top', mastHeight);
+                    }
+
+                    else {
+                        $('.baner-nav').removeClass('position-fixed')
+                        $('.baner-nav').css('top', 'auto')
+                    }
+
+                }
+
+                $(window).scroll(function () {
+                    sticky_relocate()
+                })
+
+
+            }
+
+            else {
+                $('.navbar-brand img').attr('src', 'images/banner/Bips_Logo1.png');
+                $('.menu-has-dropdown').prepend('<i class="menu-dropdown"><img src="images/icon/arrow_down-black.png"></i>')
+                $(document).on('click', '.menu-dropdown', function () {
+                    $(this).parent().siblings().children('.menu-dropdown').removeClass('open-sub-drop')
+                    $(this).parent().siblings().children('.drop-down-inner').slideUp();
+                    $(this).toggleClass('open-sub-drop').parent().children('.drop-down-inner').slideToggle();
+
+                })
+            }
+
+
+        })
+    </script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            var mastHeight = $('header').outerHeight();
+            if (window.location.hash) {
+                setTimeout(function () {
+                    $('html, body').scrollTop(0).show();
+                    $('html, body').animate({
+                        scrollTop: $(window.location.hash).offset().top - mastHeight - 50
+                    }, 1000)
+                }, 0);
+            }
+            else {
+                $('html, body').show();
+            }
+        });
+
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.gallery-listing').lightGallery({
+                thumbnail: true
+            });
+
+
+            $('.add-delete-buttons a').click(function (e) {
+                e.preventDefault()
+            })
+
+        })
+
+        $('.owl-custom-top-nav').owlCarousel({
+            loop: false,
+            margin: 0,
+            nav: true,
+            mouseDrag: false,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(window).width() > 767) {
+                var title_inner_banner = $('.banner-top-title').outerHeight();
+                var baner_nav_inner = $('.baner-nav').outerHeight();
+                var combined_inner_title_heigt = title_inner_banner + baner_nav_inner;
+                $('.banner-inner-top.green-back.text-center .banner-top-title').css('height', combined_inner_title_heigt);
+            }
+
+        })
+
+    </script>
+
+
+
+    </form>
+</body>
+</html>

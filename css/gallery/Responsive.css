@@ -1,0 +1,227 @@
+﻿
+ @media only screen and (min-width : 991px)and (max-width :1024px){
+    .flexslider .slides img { height: 100vh; }
+    .menu1 {top:-8px; }
+    .menu3 {top:0px; }
+   /* .menuLogo, .logName { display:inline !important;  }
+    .menuLogo { margin:2px 0 0 0; }
+    .logName { margin:18px 0 0 3px; }*/
+    #newnotice_lblnoticedownloads {
+    max-width: 738px;
+    MARGIN-LEFT: 130PX;
+}
+.logName{ margin-top:50px;}
+.logo_main_aster{ margin-top:0px; margin-right:0px;}
+.master_container_inner{ overflow:hidden;}
+.pg_viewall2{ margin-top:27px;}
+
+    #Infrastructure { max-width:1000px; }
+    #galley_slider { max-width:1000px; }
+
+    .iconsSer {margin-left: 0; margin-bottom: 20px; }
+    .toppersX_inner ul li{ margin-left:12px;}
+ 
+
+	}
+
+ @media only screen and (min-width : 768px) and (max-width :990px)	
+ {
+ 	.heder_Center{ overflow:hidden;}
+ 	.menu_master{ position:relative;}
+ 	.toppersX_inner ul li{ margin-left:8px;}
+ 	.bottom_txt_pr{ width:23%;}
+ 	.logo_main_aster{ margin-top:0px; margin-right:0px;}
+ 	.quick_linkas{ z-index:-1 !important}
+	}
+	
+	
+	
+
+@media only screen and (max-width: 767px) {
+    .con_sec {
+        max-width: 340px;
+        width: 100%;
+        /*border:1px solid red;*/
+    }
+    .jsty {
+    margin-top: -21px;
+}
+
+.quick_linkas {
+    z-index: -1 !important;
+    position: relative !important;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+    a.vishal {
+        position: relative !important; top: 0px !important;
+    }
+
+.founder ul li{ width:45%;}
+
+.fontWeight600{ font-size:19px;}
+
+.photo_res{     margin-top: -16px !important;}
+
+.toppr_res {
+    margin-top: 0px !important;
+}
+.ccc{ text-align:left !important}
+    
+    .bottom_txt_pr{ width:60%;}
+    #achi_slide {
+    /*width: 302px !important;
+    float: none;
+    margin: 0 auto;*/
+    max-width: 315px !important;
+    float: none !important;
+    margin: 0 auto !important;
+}
+
+.readmoreH a{margin-bottom: 45px;margin-top:0px;}
+
+.accordionContent_Y_1{ padding:17px 0px 14px 0px;}
+.Infrastructure ul li{padding: 26px 0px 6px 0px;}
+.infrs_up_img a{ display:block; float:left;}
+.topper_X_Txt{margin: 0px auto;}
+.batchTopMargin{ margin-top:138px;}
+.conName{ margin-bottom:26px;}
+.Grydate{text-align: center;font-size: 19px;max-width: 100%;}
+.galler_heading{text-align: center;width: 100%;font: 400 18px/30px 'Exo' !important;}
+.conImg img{ max-width:inherit; }
+    .master_left_img{ float:none;}
+    span[id*=lbldescp]{ padding-left:10px;}
+    .ulimages{ margin-left:0px;}
+    .head_master_txt span{ font-size:20px;}
+    .tbl-inner {
+    overflow: scroll;
+    width: 100%;
+} 
+.toppersX_inner ul li{ margin-left:0px; width:100%;}
+#galley_slider li{ width:270px !important; height:202px !important}
+#galley_slider {
+    max-width: 565px;
+    height: 260px !important;
+   
+    margin: 0 auto;
+}
+    .previousAlbum:after{ left:50%;}
+    #newnotice_lblnoticedownloads a {
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid #000; */
+    display: block;
+    padding: 0 0px;
+    width: 100%;
+    max-width: 300px;
+}
+img.master_left_img1{ width:100%}
+
+    .notice_con_para{
+display: block;
+       max-width: 300px;
+}
+
+.notice_main ul li { width:50%;height:100% !important;  }
+.logo_master_inner, .logo_main_aster, .logo_name_master{width:100%;float: left;text-align:center;/* max-width: 100%; */max-width: 100%;margin-left: 0px;}
+.heder_Center{ overflow:hidden;}
+.menu_master{ position:relative;}
+	}
+
+@media only screen and (max-width: 480px) 
+{
+	.achivWrap{
+		float: left;
+    overflow: hidden;
+    max-width: 440px;
+    width: 100%;
+		}
+    #AchievementHome_lblAchievement {
+    
+}
+.founder ul li{width:100%;padding: 26px 0px 6px 0px;text-align: center;}
+
+ #achi_slide{/* width: 302px !important; */     width: 100% !important;
+ }
+    #achi_slide li{/* border:1px solid green; */max-width: 316px;}
+img.master_left_img1{ width:100%}
+    .achivHeading {float: left; margin-top: 20px;}
+    .heading {font: 400 26px/30px 'Exo' !important;}
+#galley_slider {
+   max-width: 270px;
+    height: auto !important;
+   
+    margin: 0 auto;
+}
+
+.toppr_res {
+    margin-top: 40px !important;
+}
+
+    .slider { z-index: 1 !important; position: relative !important; }
+    .notice_main ul li { width:100%;height:100% !important;  }
+    .head-media12{ width:100% !important; margin-left:0px !important;} 
+    
+}	
+		
+
+
+@media screen and (max-width:990px) {
+    .overlay.panel {display: none;}
+   .menu{ position: absolute; top: 60px; z-index: 9; display:block; opacity:1; visibility:visible;}
+.mobMenuIcon{ display:block; text-align:center; width:100%; /*background:#2ab2cb;*/ position: absolute; top: 30px; z-index: 9;}
+.menuLogo{/* display:none; */display: block;max-width: 990px;text-align: center;margin: 13px auto 0px auto;}
+.menuLogo > a {float: none;}
+    .logName {margin: 20px auto;float: none;overflow: hidden;max-width: 100%;text-align: center;width: 100%;}
+.menuCenter{ max-width:100%;}
+img.master_left_img1{ width:100%}
+
+ul.dropmenu li{ height:auto;}
+.menus>ul>li>a{    line-height: 29px; border-bottom: 1px solid #81c5ef;  text-align: center;}
+/*.mobileMenu{ display:block; width:100%; margin-top:30px;}*/
+.menus { display:none; background:#34437a; width:100%; max-width: 100%;  margin: 0px; position:absolute; text-align: left;right: 0px;top: 0px;}	
+ul.dropmenu li {  background:none; width:100%;}
+ul.dropmenu li a{padding: 5px 15px 5px 15px; text-align: center !important; border-bottom: 1px solid #FFEB3B;  font-weight: 400;}
+.dropmenu ul.submenu { position:relative; top:0px; width:100%; background: #233165; border-top: 0px solid #195110;
+    border-bottom: 0px solid #195110; padding-bottom: 0;}
+.dropmenu ul.right { text-align:left;}
+ul.dropmenu li:before{ width:0; height:0;}
+.dropmenu ul.submenu li:hover:before{ width:0; height:0;}
+
+
+.homeInfra {
+    float: left;
+    overflow: hidden;
+    max-width: 1024px;
+    width: 100%;
+}
+
+    .notice_main {
+        max-width: 1024px;
+    overflow: hidden;
+    }
+
+span#homephotog_LBPhoto {
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.appIcon a {display:block;}
+
+    .heading { font: 400 36px/40px 'Exo'; }
+    .mt-60 { margin-top: 0;}
+    .slider {z-index: 1 !important; position: relative !important;}
+    .menu1 { background: #435181;  transform: translatey(0); position: relative; height: 300px;}
+    .notice_main ul li {border-right:0; }
+    #achi_slide ul li {min-height: 300px;}
+    .textFrom { padding-bottom:15px;    }
+    /*.notice_con_para {
+        padding-right:2%;
+        width:95%;
+    }*/
+    
+}	

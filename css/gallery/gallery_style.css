@@ -1,0 +1,38 @@
+.img_border { background: #fff; padding: 4px; border: 1px solid #ccc }
+.img_nom { display: block; margin-bottom: 15px }
+.img_fl { float: left; margin: 3px 15px 5px 0 }
+.img_fr { float: right; margin: 3px 0 5px 15px }
+
+
+#gallery {
+
+}
+
+#gallery li {  height: auto;
+  float: left;
+  width: 127px;
+    height: 124px;
+  background: none;
+  margin: 0px 1px 1px 0;
+}
+
+
+
+#gallery li a
+ {  
+	display: block;
+	padding: 10px;
+}
+
+li{
+    list-style:none;
+}
+
+#gallery li a img  { border: 2px solid black; box-shadow: 2px 2px 2px 2px #BDBDBD; width:120px;}
+
+
+
+
+
+#gallery li.no_margin_right { margin-right: 0 }
+
